@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap-validate-laravel",
+  "version": "1.0.0",
+  "description": "Integração do Bootstrap Validate com Laravel",
+  "scripts": {
+    "build": "babel src --out-dir dist --source-maps",
+    "build:min": "babel src --out-dir dist --source-maps --minified",
+    "prepublishOnly": "npm run build && npm run build:min"
+  },
+  "main": "dist/bootstrap-validate-laravel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walissonaguirra/bootstrap-validate-laravel.git"
+  },
+  "keywords": [
+    "boostrap",
+    "validate",
+    "laravel"
+  ],
+  "author": {
+    "name": "Walisson Aguirra",
+    "email": "walissonaguirra@proton.me",
+    "url": "https://github.com/walissonaguirra"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walissonaguirra/bootstrap-validate-laravel/issues"
+  },
+  "homepage": "https://github.com/walissonaguirra/bootstrap-validate-laravel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-preset-minify": "^0.5.2"
+  }
+}
